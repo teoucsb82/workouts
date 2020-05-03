@@ -182,7 +182,7 @@ class Workouts
     end
 
     def create_legs_and_back
-      @moves << Move.new(name: 'Balanced Lunges', weight: 0)
+      @moves << Move.new(name: 'Balanced Lunges')
       @moves << Move.new(name: 'Calf-Raise Squats', weight: 0)
       @moves << Move.new(name: 'Reverse Grip Chin-Ups')
       @moves << Move.new(name: 'Super Skaters')
@@ -211,37 +211,37 @@ class Workouts
     end
 
     def create_kenpo_x
-      @moves << Move.new(name: 'Twist and Pivot', weight: 0)
-      @moves << Move.new(name: 'Twist and Pivot with Hook and Uppercut', weight: 0)
-      @moves << Move.new(name: 'Jabs', weight: 0)
-      @moves << Move.new(name: 'Jab-Cross', weight: 0)
-      @moves << Move.new(name: 'Jab-Cross-Hook', weight: 0)
-      @moves << Move.new(name: 'Jab-Cross-Hook-Uppercut', weight: 0)
+      @moves << Move.new(name: 'Twist and Pivot')
+      @moves << Move.new(name: 'Twist and Pivot with Hook and Uppercut')
+      @moves << Move.new(name: 'Jabs')
+      @moves << Move.new(name: 'Jab-Cross')
+      @moves << Move.new(name: 'Jab-Cross-Hook')
+      @moves << Move.new(name: 'Jab-Cross-Hook-Uppercut')
       add_break
-      @moves << Move.new(name: 'Step Drag, High-Low Punch', weight: 0)
-      @moves << Move.new(name: 'Jab-Cross Switch', weight: 0)
-      @moves << Move.new(name: 'Hook-Uppercut Switch', weight: 0)
-      @moves << Move.new(name: 'Knee Kick', weight: 0)
-      @moves << Move.new(name: 'Ball Kick', weight: 0)
+      @moves << Move.new(name: 'Step Drag, High-Low Punch')
+      @moves << Move.new(name: 'Jab-Cross Switch')
+      @moves << Move.new(name: 'Hook-Uppercut Switch')
+      @moves << Move.new(name: 'Knee Kick')
+      @moves << Move.new(name: 'Ball Kick')
       add_break
-      @moves << Move.new(name: 'Side Kick', weight: 0)
-      @moves << Move.new(name: 'Back Kick', weight: 0)
-      @moves << Move.new(name: 'Three-Direction Kick', weight: 0)
-      @moves << Move.new(name: 'Side Lunge with High Sword-Low Hammer', weight: 0)
-      @moves << Move.new(name: 'Step-Drag-Claw-Low Punch', weight: 0)
+      @moves << Move.new(name: 'Side Kick')
+      @moves << Move.new(name: 'Back Kick')
+      @moves << Move.new(name: 'Three-Direction Kick')
+      @moves << Move.new(name: 'Side Lunge with High Sword-Low Hammer')
+      @moves << Move.new(name: 'Step-Drag-Claw-Low Punch')
       add_break
-      @moves << Move.new(name: 'High Block', weight: 0)
-      @moves << Move.new(name: 'Inward Block', weight: 0)
-      @moves << Move.new(name: 'Outward Block', weight: 0)
-      @moves << Move.new(name: 'Downward Block', weight: 0)
-      @moves << Move.new(name: 'Star Block', weight: 0)
+      @moves << Move.new(name: 'High Block')
+      @moves << Move.new(name: 'Inward Block')
+      @moves << Move.new(name: 'Outward Block')
+      @moves << Move.new(name: 'Downward Block')
+      @moves << Move.new(name: 'Star Block')
       add_break
-      @moves << Move.new(name: 'Front Shuffle with High Block-Low Punch', weight: 0)
-      @moves << Move.new(name: 'Knee-Back Kick', weight: 0)
-      @moves << Move.new(name: 'Front and Back Knuckles, Ball Kick, Back Kick', weight: 0)
-      @moves << Move.new(name: 'Hook, Uppercut, Low Side Kick', weight: 0)
-      @moves << Move.new(name: 'Elbow Series', weight: 0)
-      @moves << Move.new(name: 'Vertical Punches', weight: 0)
+      @moves << Move.new(name: 'Front Shuffle with High Block-Low Punch')
+      @moves << Move.new(name: 'Knee-Back Kick')
+      @moves << Move.new(name: 'Front and Back Knuckles, Ball Kick, Back Kick')
+      @moves << Move.new(name: 'Hook, Uppercut, Low Side Kick')
+      @moves << Move.new(name: 'Elbow Series')
+      @moves << Move.new(name: 'Vertical Punches')
     end
 
     def create_core_synergistics
